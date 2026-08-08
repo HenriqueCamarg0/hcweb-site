@@ -43,7 +43,7 @@ export const testimonials = [
   {
     name: "Marina Duarte",
     role: "Clínica de Estética",
-    text: "Em uma semana a página estava no ar e já no primeiro mês dobramos os agendamentos vindos do WhatsApp.",
+    text: "A página ficou linda e profissional. No primeiro mês já dobramos os agendamentos vindos do WhatsApp.",
   },
   {
     name: "Rafael Lima",
@@ -69,7 +69,7 @@ export const faqs = [
   },
   {
     q: "Em quanto tempo fica pronta?",
-    a: "O prazo médio é de 3 a 7 dias úteis após a aprovação do planejamento e o envio dos conteúdos.",
+    a: "O prazo de entrega é de até 30 dias úteis. Como desenvolvemos páginas sob medida, cada projeto recebe atenção completa para garantir qualidade, design exclusivo e conversão otimizada.",
   },
   {
     q: "Posso editar depois?",

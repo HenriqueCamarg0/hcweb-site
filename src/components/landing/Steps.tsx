@@ -17,7 +17,7 @@ export function Steps() {
           </h2>
           <p className="mt-6 inline-flex items-center gap-2 rounded-full border border-border px-4 py-2 text-sm text-muted-foreground">
             <Clock className="size-4 text-primary-glow" aria-hidden />
-            Prazo médio: 3 a 7 dias úteis
+            Prazo de entrega: até 30 dias úteis
           </p>
         </Reveal>
 

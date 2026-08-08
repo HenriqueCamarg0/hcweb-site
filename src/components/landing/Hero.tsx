@@ -18,7 +18,7 @@ export function Hero() {
         <div className="animate-rise">
           <span className="glass inline-flex items-center gap-2 rounded-full px-3 py-1.5 text-xs text-muted-foreground">
             <span className="size-1.5 rounded-full bg-primary-glow" aria-hidden />
-            Landing pages entregues em 3 a 7 dias úteis
+            Desenvolvimento sob medida em até 30 dias
           </span>
 
           <h1 className="mt-6 text-4xl leading-[1.05] font-semibold tracking-tight text-balance sm:text-5xl lg:text-6xl">
