@@ -1,6 +1,6 @@
 export const WHATSAPP_URL =
-  "https://wa.me/5511999999999?text=" +
-  encodeURIComponent("Olá! Quero um orçamento para uma Landing Page.");
+  "https://wa.me/5511942081459?text=" +
+  encodeURIComponent("Olá! Quero um orçamento para desenvolvimento web.");
 
 export const problems = [
   "Dependem apenas do Instagram para vender",

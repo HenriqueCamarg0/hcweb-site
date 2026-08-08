@@ -1,3 +1,6 @@
+"use client";
+
+import Image from "next/image";
 import { ArrowUpRight } from "lucide-react";
 import { Reveal } from "./Reveal";
 import { projects, WHATSAPP_URL } from "./data";
@@ -22,19 +25,21 @@ export function Portfolio() {
         </Reveal>
 
         <div className="mt-12 grid gap-6 md:grid-cols-3">
-          {projects.map((project, i) => (
-            <Reveal key={project.title} delay={i * 90}>
-              <article className="glass group h-full overflow-hidden rounded-3xl">
-                <div className="overflow-hidden">
-                  <img
-                    src={images[i]}
-                    alt={`Landing page do projeto ${project.title}`}
-                    width={1024}
-                    height={768}
-                    loading="lazy"
-                    className="aspect-[4/3] w-full object-cover transition-transform duration-700 group-hover:scale-105"
-                  />
-                </div>
+          {projects.map((project, i) => {
+            const image = images[i] ?? p1; // Fallback para primeira imagem
+            return (
+              <Reveal key={project.title} delay={i * 90}>
+                <article className="glass group h-full overflow-hidden rounded-3xl">
+                  <div className="overflow-hidden">
+                    <Image
+                      src={image}
+                      alt={`Landing page do projeto ${project.title}`}
+                      width={1024}
+                      height={768}
+                      loading="lazy"
+                      className="aspect-[4/3] w-full object-cover transition-transform duration-700 group-hover:scale-105"
+                    />
+                  </div>
                 <div className="flex items-center justify-between gap-4 p-6">
                   <div>
                     <p className="text-xs tracking-wide text-muted-foreground uppercase">
@@ -54,7 +59,8 @@ export function Portfolio() {
                 </div>
               </article>
             </Reveal>
-          ))}
+          );
+          })}
         </div>
       </div>
     </section>

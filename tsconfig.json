@@ -1,19 +1,23 @@
 {
-  "include": ["src/**/*.ts", "src/**/*.tsx", "vite.config.ts", "eslint.config.js"],
   "compilerOptions": {
     "target": "ES2022",
-    "jsx": "react-jsx",
-    "module": "ESNext",
     "lib": ["ES2022", "DOM", "DOM.Iterable"],
-    "types": ["vite/client"],
-
+    "jsx": "preserve",
+    "module": "ESNext",
     "moduleResolution": "Bundler",
-    "allowImportingTsExtensions": true,
-    "verbatimModuleSyntax": false,
-    "noEmit": true,
-
+    
+    // Next.js específico
+    "allowJs": true,
     "skipLibCheck": true,
     "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "noEmit": true,
+    "incremental": true,
+    "esModuleInterop": true,
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    
+    // Configurações estritas mantidas
     "noUnusedLocals": false,
     "noUnusedParameters": false,
     "noFallthroughCasesInSwitch": true,
@@ -23,8 +27,28 @@
     "noUncheckedIndexedAccess": true,
     "exactOptionalPropertyTypes": true,
     "noUncheckedSideEffectImports": true,
+    
+    // Path aliases
+    "baseUrl": ".",
     "paths": {
       "@/*": ["./src/*"]
-    }
-  }
+    },
+    
+    // Next.js plugins
+    "plugins": [
+      {
+        "name": "next"
+      }
+    ]
+  },
+  "include": [
+    "next-env.d.ts",
+    "**/*.ts",
+    "**/*.tsx",
+    ".next/types/**/*.ts",
+    "src/**/*.d.ts"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
 }

@@ -1,3 +1,5 @@
+"use client";
+
 import { Clock } from "lucide-react";
 import { Reveal } from "./Reveal";
 import { steps } from "./data";

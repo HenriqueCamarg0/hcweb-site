@@ -1,3 +1,6 @@
+"use client";
+
+import Image from "next/image";
 import { ArrowRight, Check, MessageCircle } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import heroMockup from "@/assets/hero-mockup.png";
@@ -59,12 +62,12 @@ export function Hero() {
         </div>
 
         <div className="relative animate-float">
-          <img
+          <Image
             src={heroMockup}
             alt="Landing page criada pela Lumen Pages exibida em um notebook e em um celular"
             width={1280}
             height={1024}
-            fetchPriority="high"
+            priority
             className="w-full drop-shadow-[0_40px_80px_rgba(0,0,0,0.6)]"
           />
         </div>

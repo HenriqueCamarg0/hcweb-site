@@ -11,20 +11,19 @@ export function Footer() {
               aria-hidden
               className="inline-block size-6 rounded-lg bg-[image:var(--gradient-primary)]"
             />
-            Lumen Pages
+            HC Web Solutions
           </div>
           <p className="mt-3 max-w-sm text-sm text-muted-foreground">
-            Landing pages de alta conversão para negócios locais, prestadores de serviço e
-            infoprodutores.
+            Desenvolvimento de sites profissionais e landing pages de alta conversão para empresas e profissionais autônomos.
           </p>
         </div>
 
         <ul className="flex flex-wrap items-center gap-3">
           {[
             { href: WHATSAPP_URL, label: "WhatsApp", Icon: MessageCircle },
-            { href: "mailto:contato@lumenpages.com.br", label: "E-mail", Icon: Mail },
-            { href: "https://instagram.com", label: "Instagram", Icon: Instagram },
-            { href: "https://linkedin.com", label: "LinkedIn", Icon: Linkedin },
+            { href: "mailto:henriqueteach@gmail.com", label: "E-mail", Icon: Mail },
+            { href: "https://instagram.com/hcwebsolutions", label: "Instagram", Icon: Instagram },
+            { href: "https://linkedin.com/in/henrique-camargo", label: "LinkedIn", Icon: Linkedin },
           ].map(({ href, label, Icon }) => (
             <li key={label}>
               <a
@@ -41,9 +40,9 @@ export function Footer() {
         </ul>
       </div>
 
-      <div className="border-t border-border">
+      <div className="border-t border-t">
         <p className="mx-auto max-w-6xl px-4 py-6 text-xs text-muted-foreground">
-          © {new Date().getFullYear()} Lumen Pages. Todos os direitos reservados.
+          © {new Date().getFullYear()} HC Web Solutions. Todos os direitos reservados.
         </p>
       </div>
     </footer>

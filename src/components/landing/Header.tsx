@@ -1,4 +1,6 @@
-import { Link } from "@tanstack/react-router";
+"use client";
+
+import Link from "next/link";
 import { MessageCircle } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { WHATSAPP_URL } from "./data";
@@ -17,12 +19,12 @@ export function Header() {
         aria-label="Principal"
         className="glass mx-auto flex max-w-6xl items-center justify-between rounded-2xl px-4 py-3 sm:px-6"
       >
-        <Link to="/" className="flex items-center gap-2 font-semibold tracking-tight">
+        <Link href="/" className="flex items-center gap-2 font-semibold tracking-tight">
           <span
             aria-hidden
             className="inline-block size-6 rounded-lg bg-[image:var(--gradient-primary)]"
           />
-          <span>Lumen Pages</span>
+          <span>HC Web Solutions</span>
         </Link>
 
         <ul className="hidden items-center gap-7 text-sm text-muted-foreground md:flex">

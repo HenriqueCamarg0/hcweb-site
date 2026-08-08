@@ -1,0 +1,21 @@
+{
+  "name": "Lumen Pages - Landing Pages de alta conversão",
+  "short_name": "Lumen Pages",
+  "description": "Criamos landing pages rápidas, modernas e focadas em conversão para empresas, prestadores de serviço e infoprodutores.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0B0B0B",
+  "theme_color": "#2563EB",
+  "icons": [
+    {
+      "src": "/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}

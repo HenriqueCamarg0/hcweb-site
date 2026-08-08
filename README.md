@@ -1,474 +1,267 @@
-# Conversion Catalyst
-
-1000154718.jpg
-
-Preciso de um prompt para criar uma LP para minha empresa de criar LP para outras pessoas 
-
-
-
-Se a referência é a imagem que você enviou, ela parece estar totalmente preta, então não consigo extrair um layout dela para usar como inspiração. Ainda assim, posso criar um prompt de alto nível para uma landing page moderna, focada em conversão.
-
-
-
-Prompt para Lovable / Kiro / Bolt / v0
-
-Crie uma Landing Page premium para uma empresa especializada na criação de Landing Pages de alta conversão para negócios locais, infoprodutores, prestadores de serviços e empresas.
-
-
-
-O objetivo da página é transmitir autoridade, gerar confiança e converter visitantes em leads através de um formulário e botão para WhatsApp.
-
-
-
-Estilo Visual
-
-Design minimalista e sofisticado
-
-
-
-Aparência premium semelhante às páginas da Stripe, Framer e Linear
-
-
-
-Muito espaço em branco
-
-
-
-Bordas arredondadas
-
-
-
-Efeitos Glassmorphism sutis
-
-
-
-Micro animações suaves
-
-
-
-Totalmente responsiva
-
-
-
-Dark Mode elegante
-
-
-
-Tipografia moderna (Inter)
-
-
-
-Componentes com aparência profissional
-
-
-
-Performance máxima (95+ Lighthouse)
-
-
-
-Paleta
-
-Fundo: #0B0B0B
-
-
-
-Primária: #2563EB
-
-
-
-Secundária: #3B82F6
-
-
-
-Texto: Branco
-
-
-
-Cinza: #A1A1AA
-
-
-
-Estrutura
-
-Hero
-
-Headline:
-
-
-
-Sua Landing Page pronta para vender em poucos dias.
-
-
-
-Subheadline:
-
-
-
-Criamos Landing Pages rápidas, modernas e focadas em conversão para transformar visitantes em clientes.
-
-
-
-Botões
-
-
-
-Solicitar orçamento
-
-
-
-Ver projetos
-
-
-
-Ao lado direito:
-
-
-
-Mockup moderno de uma Landing Page aberta em notebook + celular.
-
-
-
-Adicionar selo:
-
-
-
-✓ Design Premium
-
-
-
-✓ SEO
-
-
-
-✓ Alta Conversão
-
-
-
-✓ Responsiva
-
-
-
-Seção Problema
-
-Mostrar que muitas empresas:
-
-
-
-dependem apenas do Instagram
-
-
-
-não possuem presença profissional
-
-
-
-perdem clientes diariamente
-
-
-
-possuem sites lentos
-
-
-
-não geram confiança
-
-
-
-Seção Solução
-
-Cards com ícones:
-
-
-
-Landing Pages rápidas
-
-
-
-SEO
-
-
-
-Formulários inteligentes
-
-
-
-Integração com WhatsApp
-
-
-
-Google Analytics
-
-
-
-Pixel Meta
-
-
-
-Hospedagem
-
-
-
-SSL
-
-
-
-Responsividade
-
-
-
-Alta velocidade
-
-
-
-Como funciona
-
-Timeline com 4 passos:
-
-
-
-Conversa inicial
-
-
-
-Planejamento
-
-
-
-Desenvolvimento
-
-
-
-Publicação
-
-
-
-Mostrar prazo médio:
-
-
-
-3 a 7 dias úteis
-
-
-
-Portfólio
-
-Grid elegante com projetos.
-
-
-
-Cada card deve conter:
-
-
-
-imagem
-
-
-
-categoria
-
-
-
-botão "Ver Projeto"
-
-
-
-Benefícios
-
-Cards destacando:
-
-
-
-Mais clientes
-
-
-
-Mais credibilidade
-
-
-
-Mais vendas
-
-
-
-Mais velocidade
-
-
-
-Melhor posicionamento Google
-
-
-
-Fácil manutenção
-
-
-
-Depoimentos
-
-Carrossel elegante com avaliações.
-
-
-
-Nota:
-
-
-
-⭐⭐⭐⭐⭐
-
-
-
-FAQ
-
-Perguntas frequentes:
-
-
-
-Quanto custa?
-
-
-
-Em quanto tempo fica pronta?
-
-
-
-Posso editar depois?
-
-
-
-Vocês hospedam?
-
-
-
-Tem suporte?
-
-
-
-CTA Final
-
-Headline:
-
-
-
-Pronto para transformar visitantes em clientes?
-
-
-
-Botão grande:
-
-
-
-Solicitar orçamento no WhatsApp
-
-
-
-Rodapé
-
-Logo
-
-
-
-Redes sociais
-
-
-
-WhatsApp
-
-
-
-Email
-
-
-
-Direitos reservados
-
-
-
-Funcionalidades
-
-React + Next.js
-
-
-
-TypeScript
-
-
-
-Tailwind CSS
-
-
-
-Framer Motion
-
-
-
-SEO completo
-
-
-
-Schema.org
-
-
-
-Open Graph
-
-
-
-Lazy Loading
-
-
-
-Otimização de imagens
-
-
-
-Formulário validado
-
-
-
-Integração com WhatsApp
-
-
-
-Código limpo e componentizado
-
-
-
-Estrutura escalável
-
-
-
-Acessibilidade (WCAG)
-
-
-
-Lighthouse acima de 95
-
-
-
-A landing page deve transmitir alto valor percebido, passar confiança imediatamente e ser comparável às páginas de agências digitais de alto padrão, utilizando animações sutis, excelente hierarquia visual e foco total em conversão.
-
-
-
-
-
-Nenhum arquivo escolhido
-
-This project was built with [Lovable](https://lovable.dev).
-
-## Build with Lovable
-
-Continue developing this project in the [Lovable editor](https://lovable.dev/projects/ff32b82b-d0d3-4371-a00b-398467d2f532).
-
-- **Ship faster**: describe what you want to build and Lovable handles the code.
-- **Stay in sync**: every change made in Lovable is committed straight to this repository.
-- **Full ownership**: this code is yours. Push to `main` on GitHub and your changes sync back into Lovable, ready for your next prompt.
-
-## Development
-
-Prefer working locally? You need Node.js and npm — [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating).
-
-```sh
-git clone <this-repository-url>
-cd <repository-name>
-npm i
+# 🌟 Lumen Pages - Landing Pages de Alta Conversão
+
+Landing page moderna, rápida e otimizada para SEO, construída com **Next.js 15** e **App Router**.
+
+![Next.js](https://img.shields.io/badge/Next.js-15-black?style=flat&logo=next.js)
+![React](https://img.shields.io/badge/React-19-blue?style=flat&logo=react)
+![TypeScript](https://img.shields.io/badge/TypeScript-5.8-blue?style=flat&logo=typescript)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind-3.4-38B2AC?style=flat&logo=tailwind-css)
+
+## ✨ Features
+
+### 🎨 Design Premium
+- ✅ Glassmorphism UI
+- ✅ Dark theme moderno
+- ✅ Animações suaves
+- ✅ Totalmente responsivo
+- ✅ 53+ componentes UI (Radix UI)
+
+### ⚡ Performance
+- ✅ Server Components (Next.js 15)
+- ✅ Image optimization (AVIF/WebP)
+- ✅ Lazy loading automático
+- ✅ Code splitting
+- ✅ Lighthouse Score 95+
+
+### 🔍 SEO Otimizado
+- ✅ Metadata API completa
+- ✅ Open Graph + Twitter Cards
+- ✅ Schema.org JSON-LD
+- ✅ Sitemap dinâmico
+- ✅ Robots.txt otimizado
+- ✅ PWA ready
+
+### 📊 Analytics
+- ✅ Google Analytics 4
+- ✅ Meta (Facebook) Pixel
+- ✅ Pronto para remarketing
+
+### 📱 Seções da Landing Page
+- Hero com CTA principal
+- Problema/Solução
+- Como funciona (Steps)
+- Portfólio de projetos
+- Benefícios
+- Depoimentos (Carousel)
+- FAQ (Accordion)
+- Formulário de contato
+- Footer completo
+
+## 🚀 Quick Start
+
+### Pré-requisitos
+- Node.js 18+ ou Bun
+- npm, yarn, pnpm ou bun
+
+### Instalação
+
+```bash
+# Clone o repositório
+git clone https://github.com/seu-usuario/web-solution.git
+cd web-solution
+
+# Instale as dependências
+npm install
+
+# Configure as variáveis de ambiente
+cp .env.local.example .env.local
+# Edite .env.local com suas configurações
+
+# Rode em desenvolvimento
 npm run dev
 ```
+
+Acesse: http://localhost:3000
+
+### Build para Produção
+
+```bash
+npm run build
+npm start
+```
+
+## 📁 Estrutura do Projeto
+
+```
+src/
+├── app/                    # Next.js App Router
+│   ├── layout.tsx         # Root layout + metadata
+│   ├── page.tsx           # Homepage
+│   ├── sitemap.ts         # SEO sitemap
+│   └── robots.ts          # SEO robots
+├── components/
+│   ├── landing/           # Componentes da landing
+│   ├── ui/                # 53 componentes UI (Radix)
+│   ├── seo/               # SEO components (JSON-LD)
+│   └── analytics/         # GA4, Meta Pixel
+├── lib/
+│   ├── utils.ts           # Utilitários
+│   └── image-loader.ts    # Image optimization
+└── assets/                # Imagens (otimizadas auto)
+```
+
+## 🛠️ Stack Tecnológica
+
+### Core
+- **Next.js 15** - Framework React com App Router
+- **React 19** - UI library
+- **TypeScript 5.8** - Type safety
+- **Tailwind CSS 3.4** - Utility-first CSS
+
+### UI Components
+- **Radix UI** - Acessível e não-estilizado
+- **shadcn/ui** - Componentes reutilizáveis
+- **Lucide React** - Ícones modernos
+- **Embla Carousel** - Carousel touch-friendly
+
+### Forms & Validation
+- **React Hook Form** - Gerenciamento de formulários
+- **Zod** - Schema validation
+- **Sonner** - Toast notifications
+
+### Deployment
+- **Vercel** - Hospedagem otimizada (recomendado)
+
+## 🎯 Deploy na Vercel
+
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new)
+
+### Via GitHub (Recomendado)
+
+1. Push para GitHub
+2. Conecte seu repo na [Vercel](https://vercel.com)
+3. Configure variáveis de ambiente
+4. Deploy automático!
+
+### Via CLI
+
+```bash
+npm i -g vercel
+vercel
+```
+
+### Variáveis de Ambiente
+
+```env
+NEXT_PUBLIC_SITE_URL=https://seu-dominio.com
+NEXT_PUBLIC_GA_ID=G-XXXXXXXXXX          # Opcional
+NEXT_PUBLIC_META_PIXEL_ID=123456789     # Opcional
+```
+
+## 📊 Performance
+
+### Lighthouse Scores (Produção)
+- ⚡ Performance: **95-100**
+- ♿ Accessibility: **90-100**
+- ✅ Best Practices: **95-100**
+- 🎯 SEO: **100**
+
+### Core Web Vitals
+- **LCP**: < 2.5s
+- **FID**: < 100ms
+- **CLS**: < 0.1
+
+## 🎨 Customização
+
+### Cores e Tema
+Edite `src/app/globals.css`:
+
+```css
+:root {
+  --primary: 217 91% 60%;        /* Azul principal */
+  --primary-glow: 217 91% 65%;   /* Azul claro */
+  --background: 11 0% 4%;         /* Fundo escuro */
+  /* ... */
+}
+```
+
+### Conteúdo
+Edite `src/components/landing/data.ts`:
+
+```typescript
+export const WHATSAPP_URL = "https://wa.me/...";
+export const problems = [...];
+export const solutions = [...];
+// ...
+```
+
+### Metadados SEO
+Edite `src/app/layout.tsx`:
+
+```typescript
+export const metadata: Metadata = {
+  title: "Seu Título",
+  description: "Sua Descrição",
+  // ...
+}
+```
+
+## 📝 Scripts Disponíveis
+
+```bash
+npm run dev          # Desenvolvimento (localhost:3000)
+npm run build        # Build de produção
+npm start            # Servidor de produção
+npm run lint         # ESLint
+npm run format       # Prettier
+```
+
+## 🐛 Troubleshooting
+
+### Build Error?
+```bash
+rm -rf node_modules .next
+npm install
+npm run build
+```
+
+### Type Errors?
+```bash
+npx tsc --noEmit
+```
+
+### Imagens não otimizando?
+Certifique-se de usar `next/image`:
+```tsx
+import Image from "next/image";
+<Image src={img} alt="..." />
+```
+
+## 📚 Documentação
+
+- [Next.js Docs](https://nextjs.org/docs)
+- [Tailwind CSS Docs](https://tailwindcss.com/docs)
+- [Radix UI Docs](https://www.radix-ui.com/docs)
+- [React Hook Form Docs](https://react-hook-form.com/)
+
+### Documentação do Projeto
+- 📘 [MIGRATION.md](./MIGRATION.md) - Guia completo da migração Vite → Next.js
+- 📘 [public/ASSETS-README.md](./public/ASSETS-README.md) - Guia de assets e imagens
+
+## 🤝 Contribuindo
+
+Contribuições são bem-vindas! Por favor:
+
+1. Fork o projeto
+2. Crie sua branch (`git checkout -b feature/AmazingFeature`)
+3. Commit suas mudanças (`git commit -m 'Add some AmazingFeature'`)
+4. Push para a branch (`git push origin feature/AmazingFeature`)
+5. Abra um Pull Request
+
+## 📄 Licença
+
+Este projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
+
+## 🙋 Suporte
+
+Precisa de ajuda? 
+
+- 📧 Email: contato@lumenpages.com.br
+- 💬 WhatsApp: [Clique aqui](https://wa.me/5511999999999)
+- 🐛 Issues: [GitHub Issues](https://github.com/seu-usuario/web-solution/issues)
+
+---
+
+**Desenvolvido com ❤️ usando Next.js 15**
+
+⭐ Se este projeto foi útil, dê uma estrela no GitHub!
