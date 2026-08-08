@@ -190,7 +190,7 @@ Edite `src/app/layout.tsx`:
 
 ```typescript
 export const metadata: Metadata = {
-  title: "Seu Título",
+  title: "Seu Títuloo",
   description: "Sua Descrição",
   // ...
 }
