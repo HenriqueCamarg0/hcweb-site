@@ -12,12 +12,12 @@ export function Benefits() {
           <p className="text-sm font-medium tracking-[0.2em] text-primary-glow uppercase">
             Benefícios
           </p>
-          <h2 className="mt-4 max-w-2xl text-3xl font-semibold tracking-tight text-balance sm:text-4xl">
+          <h2 className="mt-3 max-w-2xl text-3xl font-semibold tracking-tight text-balance sm:text-4xl">
             O que muda no seu negócio a partir da entrega.
           </h2>
         </Reveal>
 
-        <div className="mt-12 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+        <div className="mt-8 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
           {benefits.map((b, i) => {
             const C = (Icons as unknown as Record<string, Icons.LucideIcon>)[b.icon];
             return (

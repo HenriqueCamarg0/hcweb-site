@@ -12,16 +12,16 @@ export function Steps() {
           <p className="text-sm font-medium tracking-[0.2em] text-primary-glow uppercase">
             Como funciona
           </p>
-          <h2 className="mt-4 max-w-2xl text-3xl font-semibold tracking-tight text-balance sm:text-4xl">
+          <h2 className="mt-3 max-w-2xl text-3xl font-semibold tracking-tight text-balance sm:text-4xl">
             Um processo simples, do primeiro contato ao site no ar.
           </h2>
-          <p className="mt-6 inline-flex items-center gap-2 rounded-full border border-border px-4 py-2 text-sm text-muted-foreground">
+          <p className="mt-4 inline-flex items-center gap-2 rounded-full border border-border px-4 py-2 text-sm text-muted-foreground">
             <Clock className="size-4 text-primary-glow" aria-hidden />
             Prazo de entrega: até 30 dias úteis
           </p>
         </Reveal>
 
-        <ol className="relative mt-14 grid gap-8 md:grid-cols-4">
+        <ol className="relative mt-10 grid gap-8 md:grid-cols-4">
           <span
             aria-hidden
             className="absolute top-6 right-0 left-0 hidden h-px bg-gradient-to-r from-transparent via-border to-transparent md:block"

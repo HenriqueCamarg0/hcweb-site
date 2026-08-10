@@ -17,12 +17,12 @@ export function Problem() {
           <p className="text-sm font-medium tracking-[0.2em] text-primary-glow uppercase">
             O problema
           </p>
-          <h2 className="mt-4 max-w-2xl text-3xl font-semibold tracking-tight text-balance sm:text-4xl">
+          <h2 className="mt-3 max-w-2xl text-3xl font-semibold tracking-tight text-balance sm:text-4xl">
             A maioria das empresas perde clientes sem nem perceber.
           </h2>
         </Reveal>
 
-        <ul className="mt-12 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+        <ul className="mt-8 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
           {problems.map((p, i) => (
             <Reveal as="li" key={p} delay={i * 70}>
               <div className="glass h-full rounded-2xl p-6">
@@ -46,12 +46,12 @@ export function Solution() {
           <p className="text-sm font-medium tracking-[0.2em] text-primary-glow uppercase">
             A solução
           </p>
-          <h2 className="mt-4 max-w-2xl text-3xl font-semibold tracking-tight text-balance sm:text-4xl">
+          <h2 className="mt-3 max-w-2xl text-3xl font-semibold tracking-tight text-balance sm:text-4xl">
             Tudo o que sua página precisa para converter, incluído.
           </h2>
         </Reveal>
 
-        <div className="mt-12 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+        <div className="mt-8 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
           {solutions.map((s, i) => (
             <Reveal key={s.title} delay={i * 50}>
               <article className="glass group h-full rounded-2xl p-6 transition-transform duration-500 hover:-translate-y-1">

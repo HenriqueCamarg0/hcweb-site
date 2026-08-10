@@ -6,7 +6,7 @@
 As imagens estão em `src/assets/` e são importadas diretamente nos componentes usando `next/image` para otimização automática:
 
 - `hero-mockup.png` - Imagem hero (1280x1024)
-- `project-1.jpg` - Portfolio item 1
+- `project-1.png` - Portfolio item 1
 - `project-2.jpg` - Portfolio item 2  
 - `project-3.jpg` - Portfolio item 3
 

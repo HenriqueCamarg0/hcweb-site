@@ -4,7 +4,7 @@ import { WHATSAPP_URL } from "./data";
 export function Footer() {
   return (
     <footer className="border-t border-border">
-      <div className="mx-auto flex max-w-6xl flex-col gap-8 px-4 py-14 md:flex-row md:items-center md:justify-between">
+      <div className="mx-auto flex max-w-6xl flex-col gap-8 px-4 py-10 md:flex-row md:items-center md:justify-between">
         <div>
           <div className="flex items-center gap-2 font-semibold tracking-tight">
             <span
@@ -13,7 +13,7 @@ export function Footer() {
             />
             HC Web Solutions
           </div>
-          <p className="mt-3 max-w-sm text-sm text-muted-foreground">
+          <p className="mt-2 max-w-sm text-sm text-muted-foreground">
             Desenvolvimento de sites profissionais e landing pages de alta conversão para empresas e profissionais autônomos.
           </p>
         </div>
@@ -41,7 +41,7 @@ export function Footer() {
       </div>
 
       <div className="border-t border-t">
-        <p className="mx-auto max-w-6xl px-4 py-6 text-xs text-muted-foreground">
+        <p className="mx-auto max-w-6xl px-4 py-5 text-xs text-muted-foreground">
           © {new Date().getFullYear()} HC Web Solutions. Todos os direitos reservados.
         </p>
       </div>

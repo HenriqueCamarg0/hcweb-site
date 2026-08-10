@@ -10,28 +10,28 @@ const seals = ["Design Premium", "SEO", "Alta Conversão", "Responsiva"];
 
 export function Hero() {
   return (
-    <section className="relative overflow-hidden pt-36 pb-16 sm:pt-44 sm:pb-24">
+    <section className="relative overflow-hidden pt-24 pb-12 sm:pt-32 sm:pb-16 lg:pt-36 lg:pb-20">
       <div aria-hidden className="aura -top-40 -left-32 size-[36rem]" />
       <div aria-hidden className="aura top-24 right-0 size-[28rem] opacity-20" />
 
-      <div className="relative mx-auto grid max-w-6xl items-center gap-14 px-4 lg:grid-cols-[1.05fr_1fr]">
+      <div className="relative mx-auto grid max-w-6xl items-center gap-10 px-4 lg:grid-cols-[1.05fr_1fr] lg:gap-12">
         <div className="animate-rise">
           <span className="glass inline-flex items-center gap-2 rounded-full px-3 py-1.5 text-xs text-muted-foreground">
             <span className="size-1.5 rounded-full bg-primary-glow" aria-hidden />
             Desenvolvimento sob medida em até 30 dias
           </span>
 
-          <h1 className="mt-6 text-4xl leading-[1.05] font-semibold tracking-tight text-balance sm:text-5xl lg:text-6xl">
+          <h1 className="mt-5 text-4xl leading-[1.05] font-semibold tracking-tight text-balance sm:text-5xl lg:text-6xl">
             Sua Landing Page pronta para <span className="text-gradient">vender</span> em poucos
             dias.
           </h1>
 
-          <p className="mt-6 max-w-xl text-lg leading-relaxed text-muted-foreground">
+          <p className="mt-4 max-w-xl text-lg leading-relaxed text-muted-foreground">
             Criamos Landing Pages rápidas, modernas e focadas em conversão para transformar
             visitantes em clientes.
           </p>
 
-          <div className="mt-9 flex flex-wrap gap-3">
+          <div className="mt-6 flex flex-wrap gap-3">
             <Button asChild size="lg" className="glow h-12 rounded-full px-7 text-base">
               <a href={WHATSAPP_URL} target="_blank" rel="noopener noreferrer">
                 <MessageCircle aria-hidden />
@@ -51,7 +51,7 @@ export function Hero() {
             </Button>
           </div>
 
-          <ul className="mt-9 flex flex-wrap gap-x-6 gap-y-3 text-sm text-muted-foreground">
+          <ul className="mt-6 flex flex-wrap gap-x-6 gap-y-3 text-sm text-muted-foreground">
             {seals.map((s) => (
               <li key={s} className="flex items-center gap-2">
                 <Check className="size-4 text-primary-glow" aria-hidden />

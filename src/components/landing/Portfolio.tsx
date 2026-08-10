@@ -4,9 +4,9 @@ import Image from "next/image";
 import { ArrowUpRight } from "lucide-react";
 import { Reveal } from "./Reveal";
 import { projects, WHATSAPP_URL } from "./data";
-import p1 from "@/assets/project-1.jpg";
-import p2 from "@/assets/project-2.jpg";
-import p3 from "@/assets/project-3.jpg";
+import p1 from "@/assets/project-1.png";
+import p2 from "@/assets/project-2.png";
+import p3 from "@/assets/project-3.png";
 
 const images = [p1, p2, p3];
 
@@ -19,28 +19,28 @@ export function Portfolio() {
           <p className="text-sm font-medium tracking-[0.2em] text-primary-glow uppercase">
             Portfólio
           </p>
-          <h2 className="mt-4 max-w-2xl text-3xl font-semibold tracking-tight text-balance sm:text-4xl">
+          <h2 className="mt-3 max-w-2xl text-3xl font-semibold tracking-tight text-balance sm:text-4xl">
             Projetos recentes feitos para converter.
           </h2>
         </Reveal>
 
-        <div className="mt-12 grid gap-6 md:grid-cols-3">
+        <div className="mt-8 grid gap-6 md:grid-cols-3">
           {projects.map((project, i) => {
-            const image = images[i] ?? p1; // Fallback para primeira imagem
+            const image = images[i] ?? p1;
             return (
               <Reveal key={project.title} delay={i * 90}>
-                <article className="glass group h-full overflow-hidden rounded-3xl">
-                  <div className="overflow-hidden">
+                <article className="glass group flex h-full flex-col rounded-3xl overflow-hidden">
+                  <div className="relative w-full bg-muted flex-1 flex items-center justify-center p-4">
                     <Image
                       src={image}
                       alt={`Landing page do projeto ${project.title}`}
                       width={1024}
-                      height={768}
+                      height={1400}
                       loading="lazy"
-                      className="aspect-[4/3] w-full object-cover transition-transform duration-700 group-hover:scale-105"
+                      className="w-full h-auto max-h-[400px] object-contain transition-transform duration-700 group-hover:scale-[1.02]"
                     />
                   </div>
-                <div className="flex items-center justify-between gap-4 p-6">
+                <div className="flex items-center justify-between gap-4 p-6 border-t border-border">
                   <div>
                     <p className="text-xs tracking-wide text-muted-foreground uppercase">
                       {project.category}

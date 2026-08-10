@@ -44,15 +44,15 @@ export function FinalCta() {
   return (
     <section className="section-pad relative overflow-hidden" id="contato">
       <div aria-hidden className="aura top-1/4 left-1/2 size-[34rem] -translate-x-1/2 opacity-25" />
-      <div className="relative mx-auto grid max-w-6xl items-center gap-12 px-4 lg:grid-cols-2">
+      <div className="relative mx-auto grid max-w-6xl items-center gap-10 px-4 lg:grid-cols-2 lg:gap-12">
         <Reveal>
           <h2 className="text-3xl font-semibold tracking-tight text-balance sm:text-4xl lg:text-5xl">
             Pronto para transformar <span className="text-gradient">visitantes em clientes?</span>
           </h2>
-          <p className="mt-6 max-w-md text-lg text-muted-foreground">
+          <p className="mt-5 max-w-md text-lg text-muted-foreground">
             Conte sobre o seu projeto e receba um orçamento personalizado em até 24 horas.
           </p>
-          <Button asChild size="lg" className="glow mt-8 h-14 rounded-full px-8 text-base">
+          <Button asChild size="lg" className="glow mt-6 h-14 rounded-full px-8 text-base">
             <a href={WHATSAPP_URL} target="_blank" rel="noopener noreferrer">
               <MessageCircle aria-hidden />
               Solicitar orçamento no WhatsApp

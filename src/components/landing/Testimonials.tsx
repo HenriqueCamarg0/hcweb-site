@@ -20,13 +20,13 @@ export function Testimonials() {
           <p className="text-sm font-medium tracking-[0.2em] text-primary-glow uppercase">
             Depoimentos
           </p>
-          <h2 className="mt-4 max-w-2xl text-3xl font-semibold tracking-tight text-balance sm:text-4xl">
+          <h2 className="mt-3 max-w-2xl text-3xl font-semibold tracking-tight text-balance sm:text-4xl">
             Quem já colocou a página no ar.
           </h2>
         </Reveal>
 
         <Reveal delay={120}>
-          <Carousel opts={{ align: "start", loop: true }} className="mt-12">
+          <Carousel opts={{ align: "start", loop: true }} className="mt-8">
             <CarouselContent>
               {testimonials.map((t) => (
                 <CarouselItem key={t.name} className="sm:basis-1/2 lg:basis-1/3">

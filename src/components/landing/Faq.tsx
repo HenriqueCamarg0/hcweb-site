@@ -15,10 +15,10 @@ export function Faq() {
       <div className="mx-auto grid max-w-6xl gap-12 px-4 lg:grid-cols-[0.8fr_1.2fr]">
         <Reveal>
           <p className="text-sm font-medium tracking-[0.2em] text-primary-glow uppercase">FAQ</p>
-          <h2 className="mt-4 text-3xl font-semibold tracking-tight text-balance sm:text-4xl">
+          <h2 className="mt-3 text-3xl font-semibold tracking-tight text-balance sm:text-4xl">
             Perguntas frequentes
           </h2>
-          <p className="mt-4 text-muted-foreground">
+          <p className="mt-3 text-muted-foreground">
             Ainda com dúvidas? Fale com a gente pelo WhatsApp e respondemos em minutos.
           </p>
         </Reveal>
