@@ -3,6 +3,13 @@
  */
 
 import type { Solucao, Etapa, Beneficio, PorQueTerSite, FAQ, Projeto } from "@/tipos/landing";
+import demoAdvocacia from "@/assets/demo-advocacia.jpg";
+import demoFloricultura from "@/assets/demo-floricultura.jpg";
+import demoOdonto from "@/assets/demo-odonto.jpg";
+import demoPetshop from "@/assets/demo-petshop.jpg";
+import demoPizzaria from "@/assets/demo-pizzaria.jpg";
+import demoRestaurante from "@/assets/demo-restaurante.jpg";
+import demoStudio from "@/assets/demo-studio.jpg";
 
 export const problemas: readonly string[] = [
   "Dependem apenas do Instagram para vender",
@@ -142,7 +149,46 @@ export const perguntasFrequentes: readonly FAQ[] = [
 ] as const;
 
 export const projetos: readonly Projeto[] = [
-  { title: "Estilo & Beleza", category: "Clínica de Estética • Conceito" },
-  { title: "Fitness Pro", category: "Personal Trainer • Conceito" },
-  { title: "Advocacia Premium", category: "Escritório Jurídico • Conceito" },
+  {
+    title: "Advocacia",
+    category: "Escritório Jurídico • Demonstração",
+    image: demoAdvocacia,
+    url: "https://demo-advocacia.hcwebsites.com.br",
+  },
+  {
+    title: "Floricultura",
+    category: "Floricultura • Demonstração",
+    image: demoFloricultura,
+    url: "https://demo-floricultura.hcwebsites.com.br",
+  },
+  {
+    title: "Odontologia",
+    category: "Clínica Odontológica • Demonstração",
+    image: demoOdonto,
+    url: "https://demo-odonto.hcwebsites.com.br",
+  },
+  {
+    title: "Pet Shop",
+    category: "Pet Shop • Demonstração",
+    image: demoPetshop,
+    url: "https://demo-petshop.hcwebsites.com.br",
+  },
+  {
+    title: "Pizzaria",
+    category: "Pizzaria • Demonstração",
+    image: demoPizzaria,
+    url: "https://demo-pizzaria.hcwebsites.com.br",
+  },
+  {
+    title: "Restaurante",
+    category: "Restaurante • Demonstração",
+    image: demoRestaurante,
+    url: "https://demo-restaurante.hcwebsites.com.br",
+  },
+  {
+    title: "Studio",
+    category: "Studio Fotográfico • Demonstração",
+    image: demoStudio,
+    url: "https://demo-studio.hcwebsites.com.br",
+  },
 ] as const;

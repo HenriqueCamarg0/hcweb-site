@@ -4,12 +4,6 @@ import Image from "next/image";
 import { ArrowUpRight } from "lucide-react";
 import { Reveal } from "./Reveal";
 import { projetos } from "@/dados/landing";
-import { WHATSAPP_URL } from "@/dados/contato";
-import p1 from "@/assets/project-1.png";
-import p2 from "@/assets/project-2.png";
-import p3 from "@/assets/project-3.png";
-
-const images = [p1, p2, p3];
 
 export function Portfolio() {
   return (
@@ -21,23 +15,22 @@ export function Portfolio() {
             Portfólio
           </p>
           <h2 className="mt-3 max-w-2xl text-3xl font-semibold tracking-tight text-balance sm:text-4xl">
-            Projetos conceituais que demonstram nosso trabalho.
+            Demonstrações reais, no ar, para você ver na prática.
           </h2>
           <p className="mt-3 text-base text-muted-foreground max-w-xl">
-            Exemplos desenvolvidos para mostrar a qualidade e o estilo das landing pages que criamos.
+            Clique em qualquer card abaixo e veja o site funcionando de verdade, no navegador.
           </p>
         </Reveal>
 
         <div className="mt-8 grid gap-6 md:grid-cols-3">
           {projetos.map((project, i) => {
-            const image = images[i] ?? p1;
             return (
               <Reveal key={project.title} delay={i * 90}>
                 <article className="glass group flex h-full flex-col rounded-3xl overflow-hidden">
                   <div className="relative w-full bg-muted flex-1 flex items-center justify-center p-4">
                     <Image
-                      src={image}
-                      alt={`Landing page do projeto ${project.title}`}
+                      src={project.image}
+                      alt={`Landing page de demonstração para ${project.title}`}
                       width={1024}
                       height={1400}
                       loading="lazy"
@@ -52,7 +45,7 @@ export function Portfolio() {
                     <h3 className="mt-1 font-medium">{project.title}</h3>
                   </div>
                   <a
-                    href={WHATSAPP_URL}
+                    href={project.url}
                     target="_blank"
                     rel="noopener noreferrer"
                     className="inline-flex shrink-0 items-center gap-1 rounded-full border border-border px-4 py-2 text-sm text-muted-foreground transition-colors hover:border-primary hover:text-foreground"

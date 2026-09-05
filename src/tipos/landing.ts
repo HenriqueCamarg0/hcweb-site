@@ -2,6 +2,8 @@
  * Tipos para os dados da landing page
  */
 
+import type { StaticImageData } from "next/image";
+
 export interface Solucao {
   icon: string;
   title: string;
@@ -34,4 +36,6 @@ export interface FAQ {
 export interface Projeto {
   title: string;
   category: string;
+  image: StaticImageData;
+  url: string;
 }
