@@ -35,6 +35,9 @@
     --sidebar-accent-foreground: 0 0% 98%;
     --sidebar-border: 0 0% 100% / 10%;
     --sidebar-ring: 217 91% 65%;
+    
+    /* Gradient */
+    --gradient-primary: linear-gradient(135deg, hsl(217 91% 60%), hsl(217 91% 65%));
   }
 
   .dark {
