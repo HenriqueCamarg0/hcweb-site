@@ -1,7 +1,8 @@
-import { MetadataRoute } from "next";
+import type { MetadataRoute } from "next";
+import { EMPRESA } from "@/configuracoes/empresa";
 
 export default function robots(): MetadataRoute.Robots {
-  const baseUrl = process.env["NEXT_PUBLIC_SITE_URL"] || "https://hcwebsolutions.com.br";
+  const baseUrl = process.env["NEXT_PUBLIC_SITE_URL"] || EMPRESA.dominio;
 
   return {
     rules: [

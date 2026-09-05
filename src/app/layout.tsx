@@ -1,8 +1,9 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
-import { JsonLd } from "@/components/seo/JsonLd";
-import { GoogleAnalytics } from "@/components/analytics/GoogleAnalytics";
-import { MetaPixel } from "@/components/analytics/MetaPixel";
+import { JsonLd } from "@/componentes/seo/JsonLd";
+import { GoogleAnalytics } from "@/componentes/analytics/GoogleAnalytics";
+import { MetaPixel } from "@/componentes/analytics/MetaPixel";
+import { EMPRESA, SEO_CONFIG } from "@/configuracoes/empresa";
 import "./globals.css";
 
 const inter = Inter({
@@ -12,52 +13,38 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL(process.env["NEXT_PUBLIC_SITE_URL"] || "https://hcwebsolutions.com.br"),
+  metadataBase: new URL(process.env["NEXT_PUBLIC_SITE_URL"] || EMPRESA.dominio),
   title: {
-    default: "HC Web Solutions | Desenvolvimento Web Profissional",
-    template: "%s | HC Web Solutions",
+    default: SEO_CONFIG.tituloPrincipal,
+    template: SEO_CONFIG.tituloTemplate,
   },
-  description:
-    "Desenvolvimento de sites profissionais, landing pages de alta conversão e soluções web para empresas. Criamos sua presença digital com tecnologia de ponta.",
-  keywords: [
-    "desenvolvimento web",
-    "criação de sites",
-    "landing pages",
-    "sites profissionais",
-    "HC Web Solutions",
-    "Henrique Camargo",
-    "desenvolvedor web",
-    "SEO",
-    "Next.js",
-    "React",
-  ],
-  authors: [{ name: "HC Web Solutions - Henrique Camargo" }],
-  creator: "HC Web Solutions",
-  publisher: "HC Web Solutions",
+  description: SEO_CONFIG.descricao,
+  keywords: SEO_CONFIG.keywords,
+  authors: [{ name: EMPRESA.nomeCompleto }],
+  creator: EMPRESA.nome,
+  publisher: EMPRESA.nome,
   openGraph: {
     type: "website",
     locale: "pt_BR",
     url: "/",
-    title: "HC Web Solutions | Desenvolvimento Web Profissional",
-    description:
-      "Desenvolvimento de sites profissionais, landing pages de alta conversão e soluções web para empresas. Criamos sua presença digital com tecnologia de ponta.",
-    siteName: "HC Web Solutions",
+    title: SEO_CONFIG.tituloPrincipal,
+    description: SEO_CONFIG.descricao,
+    siteName: EMPRESA.nome,
     images: [
       {
-        url: "/og-image.jpg",
-        width: 1200,
-        height: 630,
-        alt: "HC Web Solutions - Desenvolvimento Web Profissional",
+        url: SEO_CONFIG.imagemOG,
+        width: SEO_CONFIG.imagemOGWidth,
+        height: SEO_CONFIG.imagemOGHeight,
+        alt: `${EMPRESA.nome} - Criação de Sites Profissionais`,
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "HC Web Solutions | Desenvolvimento Web Profissional",
-    description:
-      "Desenvolvimento de sites profissionais, landing pages de alta conversão e soluções web para empresas.",
-    images: ["/og-image.jpg"],
-    creator: "@HCWebSolutions",
+    title: SEO_CONFIG.tituloPrincipal,
+    description: SEO_CONFIG.descricaoCurta,
+    images: [SEO_CONFIG.imagemOG],
+    creator: EMPRESA.redesSociais.instagramHandle,
   },
   robots: {
     index: true,

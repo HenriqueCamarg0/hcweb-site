@@ -1,7 +1,8 @@
-import { MetadataRoute } from "next";
+import type { MetadataRoute } from "next";
+import { EMPRESA } from "@/configuracoes/empresa";
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const baseUrl = process.env["NEXT_PUBLIC_SITE_URL"] || "https://hcwebsolutions.com.br";
+  const baseUrl = process.env["NEXT_PUBLIC_SITE_URL"] || EMPRESA.dominio;
   const currentDate = new Date();
 
   return [
@@ -9,7 +10,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
       url: baseUrl,
       lastModified: currentDate,
       changeFrequency: "weekly",
-      priority: 1.0,
+      priority: 1,
     },
     {
       url: `${baseUrl}/#solucao`,

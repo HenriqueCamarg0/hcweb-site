@@ -1,4 +1,4 @@
-# 🌟 Lumen Pages - Landing Pages de Alta Conversão
+# 🌟 HC Web Sites - Landing Pages de Alta Conversão
 
 Landing page moderna, rápida e otimizada para SEO, construída com **Next.js 15** e **App Router**.
 
@@ -143,7 +143,7 @@ vercel
 ### Variáveis de Ambiente
 
 ```env
-NEXT_PUBLIC_SITE_URL=https://seu-dominio.com
+NEXT_PUBLIC_SITE_URL=https://hcwebsites.com.br
 NEXT_PUBLIC_GA_ID=G-XXXXXXXXXX          # Opcional
 NEXT_PUBLIC_META_PIXEL_ID=123456789     # Opcional
 ```
@@ -256,8 +256,8 @@ Este projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para ma
 
 Precisa de ajuda? 
 
-- 📧 Email: contato@lumenpages.com.br
-- 💬 WhatsApp: [Clique aqui](https://wa.me/5511999999999)
+- 📧 Email: henriqueteach@gmail.com
+- 💬 WhatsApp: [Clique aqui](https://wa.me/5511942081459)
 - 🐛 Issues: [GitHub Issues](https://github.com/seu-usuario/web-solution/issues)
 
 ---

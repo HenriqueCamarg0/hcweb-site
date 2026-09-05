@@ -72,7 +72,7 @@ A imagem `og-image.jpg` (1200x630px) aparece quando o link é compartilhado no:
 
 **Design recomendado**:
 - Fundo escuro (#0B0B0B)
-- Logo + Texto: "Lumen Pages - Landing Pages de alta conversão"
+- Logo + Texto: "HC Web Sites - Criação de Sites Profissionais"
 - Mockup de um site/página
 - Fontes grandes e legíveis
 

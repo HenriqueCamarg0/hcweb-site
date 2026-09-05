@@ -1,24 +1,23 @@
 import type { Metadata } from "next";
-import { Header } from "@/components/landing/Header";
-import { Hero } from "@/components/landing/Hero";
-import { Problem, Solution } from "@/components/landing/ProblemSolution";
-import { Steps } from "@/components/landing/Steps";
-import { Portfolio } from "@/components/landing/Portfolio";
-import { Benefits } from "@/components/landing/Benefits";
-import { Testimonials } from "@/components/landing/Testimonials";
-import { Faq } from "@/components/landing/Faq";
-import { FinalCta } from "@/components/landing/FinalCta";
-import { Footer } from "@/components/landing/Footer";
-import { Toaster } from "@/components/ui/sonner";
+import { Header } from "@/componentes/landing/Header";
+import { Hero } from "@/componentes/landing/Hero";
+import { Problem, Solution } from "@/componentes/landing/ProblemSolution";
+import { Steps } from "@/componentes/landing/Steps";
+import { Portfolio } from "@/componentes/landing/Portfolio";
+import { Benefits } from "@/componentes/landing/Benefits";
+import { Testimonials } from "@/componentes/landing/Testimonials";
+import { Faq } from "@/componentes/landing/Faq";
+import { FinalCta } from "@/componentes/landing/FinalCta";
+import { Footer } from "@/componentes/landing/Footer";
+import { Toaster } from "@/componentes/ui/sonner";
+import { SEO_CONFIG } from "@/configuracoes/empresa";
 
 export const metadata: Metadata = {
-  title: "HC Web Solutions | Desenvolvimento Web Profissional",
-  description:
-    "Desenvolvimento de sites profissionais, landing pages de alta conversão e soluções web para empresas. Tecnologia de ponta para sua presença digital.",
+  title: SEO_CONFIG.tituloPrincipal,
+  description: SEO_CONFIG.descricao,
   openGraph: {
-    title: "HC Web Solutions | Desenvolvimento Web Profissional",
-    description:
-      "Desenvolvimento de sites profissionais, landing pages de alta conversão e soluções web para empresas. Tecnologia de ponta para sua presença digital.",
+    title: SEO_CONFIG.tituloPrincipal,
+    description: SEO_CONFIG.descricao,
   },
 };
 
