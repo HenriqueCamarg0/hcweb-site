@@ -1,4 +1,4 @@
-import { Instagram, Linkedin, Mail, MessageCircle } from "lucide-react";
+import { Instagram, Linkedin, MessageCircle } from "lucide-react";
 import { WHATSAPP_URL } from "@/dados/contato";
 import { EMPRESA } from "@/configuracoes/empresa";
 
@@ -22,7 +22,6 @@ export function Footer() {
         <ul className="flex flex-wrap items-center gap-3">
           {[
             { href: WHATSAPP_URL, label: "WhatsApp", Icon: MessageCircle },
-            { href: `mailto:${EMPRESA.email}`, label: "E-mail", Icon: Mail },
             { href: EMPRESA.redesSociais.instagram, label: "Instagram", Icon: Instagram },
             { href: EMPRESA.redesSociais.linkedin, label: "LinkedIn", Icon: Linkedin },
           ].map(({ href, label, Icon }) => (

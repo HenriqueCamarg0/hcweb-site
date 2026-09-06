@@ -15,7 +15,7 @@ export function Portfolio() {
             Portfólio
           </p>
           <h2 className="mt-3 max-w-2xl text-3xl font-semibold tracking-tight text-balance sm:text-4xl">
-            Demonstrações reais, no ar, para você ver na prática.
+            Demonstrações reais, para você ver na prática.
           </h2>
           <p className="mt-3 text-base text-muted-foreground max-w-xl">
             Clique em qualquer card abaixo e veja o site funcionando de verdade, no navegador.

@@ -17,9 +17,9 @@ export const EMPRESA = {
     pais: "Brasil",
   },
   redesSociais: {
-    instagram: "https://instagram.com/hc.web.solution",
-    instagramHandle: "@hc.web.solution",
-    linkedin: "https://linkedin.com/in/henrique-camargo",
+    instagram: "https://www.instagram.com/hcweb_sites/",
+    instagramHandle: "@hcweb_sites",
+    linkedin: "https://www.linkedin.com/in/henriquecamargodesousa/",
   },
 } as const;
 
