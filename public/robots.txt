@@ -1,7 +1,0 @@
-# Este arquivo será substituído dinamicamente pelo src/app/robots.ts
-# Não é necessário editar manualmente
-
-User-agent: *
-Allow: /
-
-Sitemap: https://hcwebsites.com.br/sitemap.xml

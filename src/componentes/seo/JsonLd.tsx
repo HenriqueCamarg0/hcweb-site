@@ -12,8 +12,6 @@ export function JsonLd() {
     description:
       "Criação de sites profissionais e landing pages de alta conversão para empresas.",
     url: baseUrl,
-    logo: `${baseUrl}/logo.png`,
-    image: `${baseUrl}/og-image.jpg`,
     telephone: EMPRESA.telefone,
     email: EMPRESA.email,
     founder: {

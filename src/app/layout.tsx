@@ -30,20 +30,11 @@ export const metadata: Metadata = {
     title: SEO_CONFIG.tituloPrincipal,
     description: SEO_CONFIG.descricao,
     siteName: EMPRESA.nome,
-    images: [
-      {
-        url: SEO_CONFIG.imagemOG,
-        width: SEO_CONFIG.imagemOGWidth,
-        height: SEO_CONFIG.imagemOGHeight,
-        alt: `${EMPRESA.nome} - Criação de Sites Profissionais`,
-      },
-    ],
   },
   twitter: {
     card: "summary_large_image",
     title: SEO_CONFIG.tituloPrincipal,
     description: SEO_CONFIG.descricaoCurta,
-    images: [SEO_CONFIG.imagemOG],
     creator: EMPRESA.redesSociais.instagramHandle,
   },
   robots: {
@@ -60,9 +51,7 @@ export const metadata: Metadata = {
   icons: {
     icon: [
       { url: "/favicon.ico", sizes: "any" },
-      { url: "/icon.svg", type: "image/svg+xml" },
     ],
-    apple: [{ url: "/apple-touch-icon.png", sizes: "180x180", type: "image/png" }],
   },
   manifest: "/site.webmanifest",
   alternates: {

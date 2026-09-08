@@ -7,7 +7,7 @@ export const EMPRESA = {
   nome: "HC Web Sites",
   nomeCompleto: "HC Web Sites - Henrique Camargo",
   fundador: "Henrique Camargo",
-  dominio: "https://hcwebsites.com.br",
+  dominio: "https://www.hcwebsites.com.br",
   email: "henriqueteach@gmail.com",
   telefone: "+55-11-94208-1459",
   whatsapp: "5511942081459",
@@ -41,7 +41,8 @@ export const SEO_CONFIG = {
     "SEO",
     "presença digital",
   ] as string[],
-  imagemOG: "/og-image.jpg",
-  imagemOGWidth: 1200,
-  imagemOGHeight: 630,
+  // Imagens OG temporariamente desabilitadas até criação dos assets
+  // imagemOG: "/og-image.jpg",
+  // imagemOGWidth: 1200,
+  // imagemOGHeight: 630,
 };
