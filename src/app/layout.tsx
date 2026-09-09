@@ -1,9 +1,10 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
-import { JsonLd } from "@/componentes/seo/JsonLd";
-import { GoogleAnalytics } from "@/componentes/analytics/GoogleAnalytics";
-import { MetaPixel } from "@/componentes/analytics/MetaPixel";
-import { EMPRESA, SEO_CONFIG } from "@/configuracoes/empresa";
+import { JsonLd } from "@/components/seo/JsonLd";
+import { GoogleAnalytics } from "@/components/analytics/GoogleAnalytics";
+import { MetaPixel } from "@/components/analytics/MetaPixel";
+import { EMPRESA } from "@/config/empresa";
+import { SEO_CONFIG } from "@/config/seo";
 import "./globals.css";
 
 const inter = Inter({
@@ -30,12 +31,21 @@ export const metadata: Metadata = {
     title: SEO_CONFIG.tituloPrincipal,
     description: SEO_CONFIG.descricao,
     siteName: EMPRESA.nome,
+    images: [
+      {
+        url: "/blog/hero-mockup.png",
+        width: 1280,
+        height: 1024,
+        alt: `${EMPRESA.nome} - Criação de Sites Profissionais`,
+      },
+    ],
   },
   twitter: {
     card: "summary_large_image",
     title: SEO_CONFIG.tituloPrincipal,
     description: SEO_CONFIG.descricaoCurta,
     creator: EMPRESA.redesSociais.instagramHandle,
+    images: ["/blog/hero-mockup.png"],
   },
   robots: {
     index: true,

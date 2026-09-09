@@ -1,5 +1,6 @@
 import { MetadataRoute } from "next";
-import { EMPRESA, SEO_CONFIG } from "@/configuracoes/empresa";
+import { EMPRESA } from "@/config/empresa";
+import { SEO_CONFIG } from "@/config/seo";
 
 export default function manifest(): MetadataRoute.Manifest {
   return {

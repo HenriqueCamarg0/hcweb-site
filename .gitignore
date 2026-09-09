@@ -44,3 +44,6 @@ out
 *.njsproj
 *.sln
 *.sw?
+
+# Backup files
+*.backup

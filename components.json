@@ -4,7 +4,7 @@
   "rsc": false,
   "tsx": true,
   "tailwind": {
-    "css": "src/styles.css",
+    "css": "src/app/globals.css",
     "baseColor": "slate",
     "cssVariables": true,
     "prefix": ""
@@ -12,10 +12,10 @@
   "iconLibrary": "lucide",
   "rtl": false,
   "aliases": {
-    "components": "@/componentes",
-    "utils": "@/utilitarios/utils",
-    "ui": "@/componentes/ui",
-    "lib": "@/utilitarios"
+    "components": "@/components",
+    "utils": "@/utils/utils",
+    "ui": "@/components/ui",
+    "lib": "@/utils"
   },
   "registries": {}
 }
