@@ -9,7 +9,7 @@ export const advocacia: Artigo = {
     dataPublicacao: "2026-09-02T10:00:00.000Z",
     tempoLeitura: 6,
     autor: "Henrique Camargo",
-    imagemDestaque: "/blog/demo-advocacia.jpg",
+    imagemDestaque: "/blog/artigo-advocacia.jpg",
     palavrasChave: [
       "site para advogado",
       "site advocacia",

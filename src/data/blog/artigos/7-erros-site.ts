@@ -9,7 +9,7 @@ export const seteErrosSite: Artigo = {
     dataPublicacao: "2026-09-05T10:00:00.000Z",
     tempoLeitura: 7,
     autor: "Henrique Camargo",
-    imagemDestaque: "/blog/7-erros.jpg",
+    imagemDestaque: "/blog/artigo-erros-perdendo-cliente.jpg",
     palavrasChave: [
       "erros em sites",
       "experiência do usuário",

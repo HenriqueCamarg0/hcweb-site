@@ -3,7 +3,7 @@ import type { Artigo } from "@/types/blog";
 export const restaurante: Artigo = {
     slug: "restaurante",
     titulo: "Site para restaurante: atraia mais clientes",
-    imagemDestaque: "/blog/demo-restaurante.jpg",
+    imagemDestaque: "/blog/artigo-restaurante.jpg",
     descricao:
       "Descubra como um site profissional pode ajudar seu restaurante a conquistar mais reservas e fortalecer a marca no mercado gastronômico.",
     categoria: "Sites para Empresas",

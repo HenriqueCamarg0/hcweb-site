@@ -9,7 +9,7 @@ export const floricultura: Artigo = {
     dataPublicacao: "2026-09-03T14:00:00.000Z",
     tempoLeitura: 6,
     autor: "Henrique Camargo",
-    imagemDestaque: "/blog/demo-floricultura.jpg",
+    imagemDestaque: "/blog/artigo-floricultura.jpg",
     palavrasChave: [
       "site para floricultura",
       "venda de flores online",

@@ -3,7 +3,7 @@ import type { Artigo } from "@/types/blog";
 export const petshop: Artigo = {
     slug: "petshop",
     titulo: "Site para petshop: como atrair mais clientes",
-    imagemDestaque: "/blog/demo-petshop.jpg",
+    imagemDestaque: "/blog/artigo-petshop.jpg",
     descricao:
       "Descubra como um site profissional pode ajudar seu petshop a conquistar mais clientes e fidelizar os atuais. Catálogo, agendamento e muito mais.",
     categoria: "Sites para Empresas",

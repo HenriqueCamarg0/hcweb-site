@@ -9,7 +9,7 @@ export const odontologia: Artigo = {
     dataPublicacao: "2026-09-04T10:00:00.000Z",
     tempoLeitura: 6,
     autor: "Henrique Camargo",
-    imagemDestaque: "/blog/demo-odonto.jpg",
+    imagemDestaque: "/blog/artigo-odontologia.jpg",
     palavrasChave: [
       "site para dentista",
       "site odontológico",

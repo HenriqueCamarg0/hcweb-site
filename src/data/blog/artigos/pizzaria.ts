@@ -3,7 +3,7 @@ import type { Artigo } from "@/types/blog";
 export const pizzaria: Artigo = {
     slug: "pizzaria",
     titulo: "Pizzaria online: como receber mais pedidos",
-    imagemDestaque: "/blog/demo-pizzaria.jpg",
+    imagemDestaque: "/blog/artigo-pizzaria.jpg",
     descricao:
       "Descubra como uma pizzaria pode aumentar vendas com um site próprio. Do cardápio online ao WhatsApp, veja estratégias que funcionam.",
     categoria: "Sites para Empresas",
