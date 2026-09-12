@@ -7,7 +7,7 @@ export const seteErrosSite: Artigo = {
       "Descubra os erros mais comuns que afastam visitantes e fazem você perder oportunidades de negócio. Evite esses problemas e transforme seu site em uma máquina de gerar clientes.",
     categoria: "Desenvolvimento Web",
     dataPublicacao: "2026-09-05T10:00:00.000Z",
-    tempoLeitura: 7,
+    tempoLeitura: 3,
     autor: "Henrique Camargo",
     imagemDestaque: "/blog/artigo-erros-perdendo-cliente.jpg",
     palavrasChave: [

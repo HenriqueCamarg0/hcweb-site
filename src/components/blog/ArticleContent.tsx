@@ -1,4 +1,5 @@
-﻿import type { ConteudoArtigo } from "@/types/blog";
+﻿import Image from "next/image";
+import type { ConteudoArtigo } from "@/types/blog";
 
 interface ArticleContentProps {
   conteudo: ConteudoArtigo[];
@@ -55,6 +56,26 @@ export function ArticleContent({ conteudo }: ArticleContentProps) {
               >
                 {bloco.conteudo as string}
               </blockquote>
+            );
+
+          case "imagem":
+            return (
+              <figure key={index} className="not-prose my-8">
+                <div className="relative aspect-[16/9] w-full overflow-hidden rounded-2xl bg-muted">
+                  <Image
+                    src={bloco.conteudo as string}
+                    alt={bloco.alt || ""}
+                    fill
+                    sizes="(max-width: 768px) 100vw, 720px"
+                    className="object-cover"
+                  />
+                </div>
+                {bloco.alt && (
+                  <figcaption className="mt-2 text-center text-sm text-muted-foreground">
+                    {bloco.alt}
+                  </figcaption>
+                )}
+              </figure>
             );
 
           default:

@@ -1,7 +1,9 @@
-﻿import Link from "next/link";
+﻿import Image from "next/image";
+import Link from "next/link";
 import { WhatsAppButton } from "@/components/shared/WhatsAppButton";
 import { EMPRESA } from "@/config/empresa";
 import { mainNavLinks } from "@/data/navigation";
+import logoIcon from "@/assets/logo-icon.png";
 
 export function Header() {
   return (
@@ -11,9 +13,11 @@ export function Header() {
         className="glass mx-auto flex max-w-6xl items-center justify-between rounded-2xl px-4 py-3 sm:px-6"
       >
         <Link href="/" className="flex items-center gap-2 font-semibold tracking-tight">
-          <span
-            aria-hidden
-            className="inline-block size-6 rounded-lg bg-[image:var(--gradient-primary)]"
+          <Image
+            src={logoIcon}
+            alt={`Logo ${EMPRESA.nome}`}
+            className="h-7 w-auto"
+            priority
           />
           <span>{EMPRESA.nome}</span>
         </Link>

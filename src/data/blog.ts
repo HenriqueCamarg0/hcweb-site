@@ -16,6 +16,10 @@ import { odontologia } from "./blog/artigos/odontologia";
 import { petshop } from "./blog/artigos/petshop";
 import { pizzaria } from "./blog/artigos/pizzaria";
 import { restaurante } from "./blog/artigos/restaurante";
+import { identidadeVisual } from "./blog/artigos/identidade-visual";
+import { venderMaisInternet } from "./blog/artigos/vender-mais-internet";
+import { marketingDigital } from "./blog/artigos/marketing-digital";
+import { tecnologia2026 } from "./blog/artigos/tecnologia-2026";
 
 /**
  * Array com todos os artigos do blog
@@ -32,4 +36,8 @@ export const artigos: Artigo[] = [
   petshop,
   pizzaria,
   restaurante,
+  identidadeVisual,
+  venderMaisInternet,
+  marketingDigital,
+  tecnologia2026,
 ];

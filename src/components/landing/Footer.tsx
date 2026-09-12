@@ -1,5 +1,7 @@
-﻿import { EMPRESA } from "@/config/empresa";
+﻿import Image from "next/image";
+import { EMPRESA } from "@/config/empresa";
 import { socialLinks } from "@/data/contato";
+import logoIcon from "@/assets/logo-icon.png";
 
 export function Footer() {
   return (
@@ -7,10 +9,7 @@ export function Footer() {
       <div className="mx-auto flex max-w-6xl flex-col gap-8 px-4 py-10 md:flex-row md:items-center md:justify-between">
         <div>
           <div className="flex items-center gap-2 font-semibold tracking-tight">
-            <span
-              aria-hidden
-              className="inline-block size-6 rounded-lg bg-[image:var(--gradient-primary)]"
-            />
+            <Image src={logoIcon} alt={`Logo ${EMPRESA.nome}`} className="h-6 w-auto" />
             {EMPRESA.nome}
           </div>
           <p className="mt-2 max-w-sm text-sm text-muted-foreground">

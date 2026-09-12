@@ -28,7 +28,8 @@ export type Categoria =
   | "Marketing Digital"
   | "Sites para Empresas"
   | "Landing Pages"
-  | "Tecnologia";
+  | "Tecnologia"
+  | "Identidade Visual";
 
 export interface ArtigoRelacionado {
   slug: string;

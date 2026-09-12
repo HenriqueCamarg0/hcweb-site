@@ -7,7 +7,7 @@ export const siteResponsivo: Artigo = {
       "Entenda por que ter um site que funciona perfeitamente no celular deixou de ser diferencial e tornou-se obrigatório para qualquer negócio que quer ser encontrado online.",
     categoria: "Desenvolvimento Web",
     dataPublicacao: "2026-09-07T10:00:00.000Z",
-    tempoLeitura: 5,
+    tempoLeitura: 2,
     autor: "Henrique Camargo",
     imagemDestaque: "/blog/site-responsivo.jpg",
     palavrasChave: [
@@ -81,6 +81,15 @@ export const siteResponsivo: Artigo = {
           "Formulários otimizados para preenchimento no celular",
           "Carregamento rápido mesmo em conexões mais lentas",
         ],
+      },
+      {
+        tipo: "heading3",
+        conteudo: "Como saber se o seu site é realmente responsivo",
+      },
+      {
+        tipo: "paragrafo",
+        conteudo:
+          "Não basta o site \"abrir\" no celular — ele precisa ser confortável de usar com uma mão só, em pé, com sinal de internet ruim. Um teste simples: abra seu site no celular, tente clicar em todos os botões sem dar zoom e cronometre quanto tempo leva para carregar. Se qualquer uma dessas etapas incomodar você, imagine o cliente que nunca ouviu falar da sua empresa.",
       },
       {
         tipo: "heading2",
