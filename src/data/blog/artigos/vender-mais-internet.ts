@@ -7,7 +7,7 @@ export const venderMaisInternet: Artigo = {
     "Passo a passo prático para pequenas empresas venderem mais online: presença digital, canais certos, prova social e o papel do site em cada etapa da decisão do cliente.",
   imagemDestaque: "/blog/como-vender-mais-pela-internet.jpg",
   categoria: "Marketing Digital",
-  dataPublicacao: "2026-12-09T14:00:00.000Z",
+  dataPublicacao: "2026-09-12T14:00:00.000Z",
   tempoLeitura: 4,
   autor: "Henrique Camargo",
   palavrasChave: [
