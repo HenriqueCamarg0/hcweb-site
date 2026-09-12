@@ -6,7 +6,7 @@ export const marketingDigital: Artigo = {
   descricao:
     "Um roteiro realista de marketing digital para quem está começando: o que priorizar primeiro, o que pode esperar e por que o site costuma ser a base de tudo.",
   categoria: "Marketing Digital",
-  dataPublicacao: "2026-12-10T10:00:00.000Z",
+  dataPublicacao: "2026-09-12T10:00:00.000Z",
   tempoLeitura: 4,
   autor: "Henrique Camargo",
   imagemDestaque: "/blog/marketing-para-pequenas-empresas.jpg",
