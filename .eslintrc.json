@@ -1,0 +1,28 @@
+{
+  "extends": [
+    "next/core-web-vitals",
+    "next/typescript",
+    "prettier"
+  ],
+  "rules": {
+    "react/no-unescaped-entities": "off",
+    "@typescript-eslint/no-unused-vars": [
+      "warn",
+      {
+        "argsIgnorePattern": "^_",
+        "varsIgnorePattern": "^_"
+      }
+    ],
+    "no-restricted-imports": [
+      "error",
+      {
+        "patterns": [
+          {
+            "group": ["../**/componentes/*", "../**/tipos/*", "../**/dados/*", "../**/configuracoes/*", "../**/utilitarios/*"],
+            "message": "Use os novos nomes de pastas em inglês: @/components, @/types, @/data, @/config, @/utils"
+          }
+        ]
+      }
+    ]
+  }
+}
